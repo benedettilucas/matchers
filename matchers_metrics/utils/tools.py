@@ -1,4 +1,5 @@
 import numpy as np
+import cv2
 
 def random_homography(h, w, max_angle=20, max_scale=0.15, max_shift=0.05):
     # Coordenadas normalizadas dos cantos
